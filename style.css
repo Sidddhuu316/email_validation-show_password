@@ -79,6 +79,13 @@ body {
     }
 }
 
+@media (min-width: 320px) {
+    .box #form #email,#password {
+        width: 300px;
+    }
+}
+
+
 @media (min-width: 991px){
     .box #form #email,#password {
         width: 500px;

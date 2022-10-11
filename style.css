@@ -62,7 +62,6 @@ body {
     right: 0;
     top: 12px;
     width: 24px;
-    background: url(invalid.png);
     background-size: cover;
 }
 
@@ -82,6 +81,10 @@ body {
 @media (min-width: 320px) {
     .box #form #email,#password {
         width: 300px;
+    }
+
+    .box h3 {
+        font-size: 15px;
     }
 }
 
